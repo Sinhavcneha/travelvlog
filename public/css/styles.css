@@ -1,0 +1,145 @@
+
+body{
+  font-family: sans-serif;
+}
+
+
+#title{
+    background-color:rgb(11, 86, 116);
+    color:#fff;
+}
+h1{
+  font-size: 5rem;
+font-weight:1.5 ;
+  font-family:serif ; 
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar-brand{
+  font-family: ubuntu;
+  font-size: 3.5rem ;
+  color:white ;
+
+}
+.navbar{
+  padding: 0 0 2.5rem ;
+}
+h1{
+  font-size: 3rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  line-height: 2;
+}
+
+
+.nav-item{
+  padding: 0 18px ;
+}
+.nav-link{
+  font-size:1.5rem ;
+  font-family:montserrat-light ;
+  color:white ;
+}
+.download button{
+  margin: 7% 5% 7% 0 ;
+}
+.title-image{
+  width: 70%;
+  transform: rotate(40deg);
+
+
+
+}
+.row{
+
+    background-image: url("/public/images/laksh.jpg");
+
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*features section*/
+#features{
+  padding:7% 15%;
+  font-weight:bold;
+  text-align: center;
+  color: white;
+ 
+}
+.feature box{
+  padding:4% ;
+  font-weight: bolder;
+}
+
+h3{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+h2{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 3rem;
+  line-height:1.5 ;
+  padding:0 10%;
+}
+p1{
+color: #8f8f8f;
+}
+.icon{
+  color: #ff4c68;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color:green;
+}
+
+
+
+/*pricing*/
+.card{
+  text-align: center;
+  margin:5% 5%;
+  background-color:black;
+  border: solid 1px;
+  color: #fff;
+}
+#pricing{
+  padding:40px ;
+  text-align: center;
+}
+
+@media (max-width:1028px) {
+  .title-image
+{
+  position:static ;
+  transform:rotate(0);
+  }
+}
+/*cta*/
+  .cta{
+    height:300px ;
+    background-color:white;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding:3% 15% ;
+    color:black;
+  }
+  .btn{
+    margin: 2% 2% ;
+  }
+  /*footer*/
+  #footer{
+    text-align: center;
+  padding: 7% 15%;
+  }
+  .social-icin{
+    margin:20px 20px ;
+  }
+  .Package{
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ff4c68;
+
+  }
